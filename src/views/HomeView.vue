@@ -13,6 +13,11 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
+  },
+  data(){
+    return{
+      "msg": "Welcome to Your Vue.js App"
+    }
   }
 }
 </script>
